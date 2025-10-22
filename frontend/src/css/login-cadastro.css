@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffeef3, #ffd6e8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.back-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #e055a1;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.form-box {
+  width: 300px;
+}
+
+.form-box h2 {
+  text-align: center;
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e055a1;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.switch a {
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
+}
